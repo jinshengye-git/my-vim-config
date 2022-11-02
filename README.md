@@ -4,4 +4,6 @@
 
 my favorate : [onedark.vim](https://github.com/joshdick/onedark.vim)
 
+## Use
 
+bash my-vim.sh
