@@ -24,7 +24,7 @@ nvm install v18.12.1
 node --version #should be 18.12.1
 ```
 
-#install neovim
+### install neovim
 ```
 wget https://github.com/neovim/neovim/releases/download/v0.8.0/nvim-linux64.deb
 sudo dpkg -i nvim-linux64.deb
