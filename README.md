@@ -12,10 +12,22 @@ my favorate : [onedark.vim](https://github.com/joshdick/onedark.vim)
 
 ## To use Neovim
 
+### Node dependency
+
 ```
-sudo add-apt-repository ppa:neovim-ppa/unstable
-sudo apt upgrade && sudo apt install neovim
-sudo apt autoremove
+wget https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh 
+bash install.sh
+source ~/.bashrc
+nvm --version #should be 0.38.0
+nvm ls-remote
+nvm install v18.12.1
+node --version #should be 18.12.1
+```
+
+#install neovim
+```
+wget https://github.com/neovim/neovim/releases/download/v0.8.0/nvim-linux64.deb
+sudo dpkg -i nvim-linux64.deb
 
 #install PlugInstall
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
