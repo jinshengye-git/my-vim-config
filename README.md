@@ -42,3 +42,5 @@ if you got the warning: `[coc.nvim] build/index.js not found, please install dep
 please find the `coc.vim` folder and run `git pull origin master`, then `yarn install`
 
 **Note**: if your Node.js version is old, please update to [lastest version](https://askubuntu.com/questions/1265813/how-to-update-node-js-to-the-long-term-support-version-on-ubuntu-20-04).
+
+**Note**: got the coc.vim error to ask you compile it by yarn install.  go to $HOME/.local/share/nvim/plugged/coc.nvim and run `yarn install && yarn build`
